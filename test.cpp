@@ -13,9 +13,10 @@ int main()
 
     int convertChar = 0;
     int key = 0;
+    int a = 1
     int length = newIsbn.size();
 
-    for (int i = 0; i < length; i++)
+    for (int i = 1; i < length; i++)
     {
         convertChar = int(newIsbn[i]);
         key += convertChar * pow(128, length - 1 - i);
