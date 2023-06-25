@@ -13,6 +13,7 @@ int main()
 
     int convertChar = 0;
     int key = 0;
+    int a = 1
     int length = newIsbn.size();
 
     for (int i = 0; i < length; i++)
